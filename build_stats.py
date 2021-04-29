@@ -32,7 +32,6 @@ for id1 in champ_ids:
 
         print(id1, id2)
         wr_dict[id1][id2] = {'vslane': 'middle', 'wr': header['wr'], 'delta2': header['delta2'], 'n': header['n']}
-        # time.sleep(5)
 
 
 with open('winrates_mid.json', 'w') as json_file:
